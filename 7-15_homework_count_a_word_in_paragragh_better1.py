@@ -15,8 +15,10 @@ list_2 = list(set(list_s))
 dict_1 = {}
 
 for a in range(len(list_2)):
-    str_1 = list_2[a]
-    dict_1[str_1] = 0
+    #str_1 = list_2[a]
+    #dict_1[str_1] = 0
+    dict_1[list_2[a]] = 0
+#print(dict_1)
 
 for b in range(len(list_s)):
     str_1 = list_s[b]
