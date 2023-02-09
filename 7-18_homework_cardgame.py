@@ -15,8 +15,8 @@
 import random
 
 # 1. 生成54张牌的列表。
-list_cards = ["R_joker", "B_joker"]
-list_signs = ["spade_", "heart_", "club_", "diamond_"]
+list_cards = ["JOKER", "joker"]
+list_signs = ['♠', '♥', '♣', '♦']
 list_numbers = ["2", "A", "K", "Q", "J", "10", "9", "8", "7", "6", "5", "4", "3"]
 
 for a in list_signs:
